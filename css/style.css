@@ -494,6 +494,7 @@ header .top_header div h1{
 /* navbar */
 .navbar-nav{
 	margin-right: 17em;
+	/* margin: 5px 5px; */
 }
 
 /* .nav-item{
