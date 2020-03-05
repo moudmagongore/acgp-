@@ -546,8 +546,14 @@ header .top_header div h1{
 #paragrapheAdmin
 {
 	color: #000;
-	font-size: 18px;
+	font-size: 20px;
 	text-align: justify;
+  font-family: Roboto, sans-serif;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative; */
 }
 
 .mot{
@@ -557,17 +563,17 @@ header .top_header div h1{
 	display: inline-block;
 }
 
-.parent{
-	width: 80px;
-	height: 234px;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
+/* .parent{
+  width: 80px;
+  height: 274px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 .enfant{
-	max-width: 100%;
-	max-height: 100%;
-}
+  max-width: 100%;
+  max-height: 100%;
+}  */
 
 
 /**************** copyright part css start ****************/
@@ -1238,6 +1244,11 @@ header .top_header div h1{
     /* background-color: transparent; */
     border: 0;
 }
+
+.navbar-nav .dropdown-menu {
+    position: absolute;
+    margin-top: -2px !important;
+}
 /* end navbar */
 
 
@@ -1267,6 +1278,26 @@ header .top_header div h1{
     color: #fff !important;
     background-color: #b5b5b5 !important;
     border-color: #fff !important;
+}
+
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width: 900px){
+  .mot{
+     margin-right: 270px;
+  }
+
+  #paragrapheAdmin{
+    margin-right: 296px;
+  }
+
+  
+}
+/* Responsive */
 
 
 
