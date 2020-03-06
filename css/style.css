@@ -979,8 +979,14 @@ header .top_header div h1{
 /* line 227, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_footer.scss */
 .footer-area .copyright_part_text {
   background-color: #000000;
-  padding: 32px 15px;
+  padding: 9px 15px; 
   margin-top: 95px;
+}
+
+#footer1{
+  background-color: #515051;
+  padding: 56px 11px !important;
+ 
 }
 
 
@@ -1154,6 +1160,11 @@ header .top_header div h1{
   }
 }
 
+.footer_icon .iconscontact{
+  color: #3c90d1;
+ font-size: 20px;"
+}
+
 
 .tirait {
   display: table;
@@ -1295,13 +1306,72 @@ header .top_header div h1{
     margin-right: 296px;
   }
 
-  
+  #retour {
+    display: none;
+  }
+
+  #francais{
+   margin-right: -107px;
+  }
+
+
 }
 /* Responsive */
 
 
 
 
+
+/* scroll vers haut de page depuis flèche du coté */
+ #retour {
+  margin-right: -67em;
+  margin-top: -30px;
+
+}
+#retour:hover {
+  
+ /* margin-left: -20px;
+ transition:0.7s; */
+} 
+
+
+.french{
+  background-color: #212121;
+  padding: 3px 30px;
+  display: inline-block;
+
+  position: fixed;
+  bottom: 0px;
+  right: 142px;
+  z-index: 100;
+  margin-right: 35px;
+    /* border-radius: 10px; */  
+}
+
+.adresse{
+  background-color: #000;
+  padding: 0px 10px;
+  display: inline-block;
+}
+
+
+/* second methode */
+/* #retour {
+    background: url(images/icone-retour.png) no-repeat;
+    background-size: contain;
+    position: fixed;
+    bottom: 13px;
+    right: 142px;
+    z-index: 100;
+    margin-right: -60px;
+    width: 100px;
+    height: 50px;
+    background-size: contain;
+}
+#retour:hover {
+  margin-right: -50px;
+  transition:0.7s;
+} */
 
 
 
